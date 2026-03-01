@@ -1,0 +1,7 @@
+Flask
+pyttsx3
+gigaam
+sounddevice
+scipy
+soundfile
+psutil

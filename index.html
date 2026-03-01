@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Голосовые списки</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <h1>📋 Голосовые списки</h1>
+
+    <!-- ==== СОЗДАНИЕ СПИСКА ==== -->
+    <div class="block">
+        <h2>Создать список</h2>
+        <input type="text" id="listNameInput" placeholder="Название списка">
+        <button id="createListBtn">Создать</button>
+    </div>
+
+    <!-- ==== ДОБАВЛЕНИЕ ПУНКТОВ ==== -->
+    <div class="block">
+        <h2>Добавить позицию</h2>
+        <input type="text" id="itemInput" placeholder="Новая позиция">
+        <button id="addItemBtn">Добавить</button>
+    </div>
+
+    <!-- ==== СПИСОК ЭЛЕМЕНТОВ ==== -->
+    <div class="block">
+        <h2>Элементы списка</h2>
+        <ul id="listItems"></ul>
+    </div>
+
+    <!-- ==== КНОПКА ГОЛОСА ==== -->
+    <div class="block">
+        <button id="voiceBtn">🎤 Голосовая команда</button>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+
+</body>
+</html>
