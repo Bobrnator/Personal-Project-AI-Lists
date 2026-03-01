@@ -1,1 +1,1 @@
-# Personal-Project-AI-Lists
+#AI-Lists
